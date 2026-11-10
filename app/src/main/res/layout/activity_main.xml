@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <!-- Atas: Take Photo, Toast -->
+    <Button
+        android:id="@+id/button_photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Take Photo" />
+
+    <Button
+        android:id="@+id/button_toast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Toast" />
+
+    <!-- Tengah: angka kuning -->
+    <TextView
+        android:id="@+id/show_count"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#FFFF55"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="#444444"
+        android:textSize="160sp" />
+
+    <!-- Bawah: Count, Switch Page -->
+    <Button
+        android:id="@+id/button_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Count" />
+
+    <Button
+        android:id="@+id/button_switchpage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Switch Page" />
+
+    <!-- Tombol Intent tambahanmu -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_browser"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Browse" />
+
+        <Button
+            android:id="@+id/button_map"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Map" />
+
+        <Button
+            android:id="@+id/button_contact"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Contacts" />
+
+        <Button
+            android:id="@+id/button_dial"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Dial" />
+    </LinearLayout>
+
+</LinearLayout>

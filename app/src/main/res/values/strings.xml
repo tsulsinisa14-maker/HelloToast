@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Hello Toast</string>
+    <string name="button_label_toast">Toast</string>
+    <string name="count_initial_value">0</string>
+    <string name="button_label_count">Count</string>
+    <string name="button_label_pindah">Switch Page</string>
+    <string name="text_header">Halaman ke-2</string>
+    <string name="button_label_browser">Browse Page</string>
+    <string name="button_label_map">Open Map</string>
+    <string name="button_label_contact">Open Contacts</string>
+    <string name="button_label_dial">Dial Number</string>
+</resources>
